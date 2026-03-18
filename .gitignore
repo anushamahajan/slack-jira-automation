@@ -1,0 +1,25 @@
+# Environment and secrets - never commit
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+
+# Build / output
+dist/
+build/
+.next/
+out/
+
+# Logs and debug
+*.log
+npm-debug.log*
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
